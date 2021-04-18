@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 
 import './index.scss';
 
+import SearchPage from 'containers/SearchPage';
+
 ReactDOM.render(
-  <React.StrictMode></React.StrictMode>,
+  <React.StrictMode>
+    <SearchPage />
+  </React.StrictMode>,
   document.getElementById('root')
 );
