@@ -1,0 +1,14 @@
+.empty {
+  &__container {
+    padding-top: 64px;
+    max-width: 35%;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    color: #0000008f;
+  }
+}
