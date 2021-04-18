@@ -1,0 +1,17 @@
+.results-item {
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      padding: 0;
+    }
+  
+    &__text {
+      &--link {
+        text-decoration: none;
+        color: #8a5151;
+      }
+    }
+  }
+  
